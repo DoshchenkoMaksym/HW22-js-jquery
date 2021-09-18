@@ -7,10 +7,10 @@ $('.test').css("color", "red");
 $('h2.test').css("color", "green")
 
 //Все абзацы которые следуют сразу за абзацами. 
-$('p ~ p').css("color", "blue")
+$('p + p').css("color", "blue")
 
 //Все <li>, которые следуют сразу за <li> с классом www.
-$('li.www ~ li').css("color", "yellow")
+$('li.www + li').css("color", "yellow")
 
 //Все <i> внутри <h2>.
 $('h2 i').css("color", "grey")
